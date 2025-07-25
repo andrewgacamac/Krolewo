@@ -35,10 +35,19 @@ function initNavigation() {
     });
     
     // Mobile menu toggle
-    if (mobileToggle) {
-        mobileToggle.addEventListener('click', () => {
+    if (mobileToggle && navMenu) {
+        mobileToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
             navMenu.classList.toggle('active');
             mobileToggle.classList.toggle('active');
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
+                navMenu.classList.remove('active');
+                mobileToggle.classList.remove('active');
+            }
         });
     }
 }
@@ -323,48 +332,7 @@ window.addEventListener('error', function(e) {
     // In production, send errors to monitoring service
 });
 
-// Mobile Menu Styles
-const mobileMenuStyles = `
-    @media (max-width: 768px) {
-        .nav-menu {
-            position: fixed;
-            top: 80px;
-            right: -100%;
-            width: 100%;
-            height: calc(100vh - 80px);
-            background: white;
-            flex-direction: column;
-            padding: 40px 20px;
-            transition: right 0.3s ease;
-            box-shadow: -10px 0 20px rgba(0,0,0,0.1);
-        }
-        
-        .nav-menu.active {
-            right: 0;
-        }
-        
-        .nav-mobile-toggle.active span:nth-child(1) {
-            transform: rotate(45deg) translate(5px, 5px);
-        }
-        
-        .nav-mobile-toggle.active span:nth-child(2) {
-            opacity: 0;
-        }
-        
-        .nav-mobile-toggle.active span:nth-child(3) {
-            transform: rotate(-45deg) translate(7px, -6px);
-        }
-        
-        .language-selector {
-            margin-top: 20px;
-        }
-    }
-`;
-
-// Add mobile menu styles
-const styleElement = document.createElement('style');
-styleElement.textContent = mobileMenuStyles;
-document.head.appendChild(styleElement);
+// Mobile menu styles are now in the CSS file
 
 // Lazy Loading for Images
 if ('IntersectionObserver' in window) {
