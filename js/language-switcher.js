@@ -1,4 +1,4 @@
-// Translations object
+// Translations object with complete content
 const translations = {
     en: {
         // Navigation
