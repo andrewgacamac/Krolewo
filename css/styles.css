@@ -690,6 +690,78 @@ section {
     border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
+/* Exclusive Services - Seller/Buyer Section */
+.exclusive-services {
+    margin-top: 60px;
+    padding: 40px;
+    background: rgba(255, 215, 0, 0.05);
+    border: 2px solid var(--accent-color);
+    border-radius: 0;
+}
+
+.exclusive-services h3 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.service-highlight {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+.service-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.service-column {
+    padding: 30px;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-column:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-column h4 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.service-column h4 i {
+    color: var(--accent-color);
+    margin-right: 10px;
+}
+
+.service-column p {
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+.invitation-notice {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    padding: 20px;
+    background: rgba(255, 215, 0, 0.1);
+    border-top: 2px solid var(--accent-color);
+    margin: 0 -40px -40px -40px;
+}
+
 .cta-pretext {
     font-size: 1.2rem;
     color: var(--text-light);
@@ -1679,6 +1751,20 @@ section {
     .data-highlights {
         grid-template-columns: 1fr;
         gap: 20px;
+    }
+    
+    /* Exclusive Services */
+    .service-columns {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .exclusive-services {
+        padding: 20px;
+    }
+    
+    .invitation-notice {
+        margin: 0 -20px -20px -20px;
     }
     
     /* Footer */
