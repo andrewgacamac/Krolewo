@@ -51,7 +51,23 @@ const translations = {
         "service-buyers-desc": "We offer access to estates that have never been publicly offered. Our clients receive first consideration on properties before any wider marketing is contemplated.",
         "invitation-notice": "Access by written referral from an existing client only.",
         
-        // Other sections - partial translations for brevity
+        // Service Features
+        "service-feature-1-title": "Board approval required",
+        "service-feature-1-desc": "Every prospective client must be approved by our advisory board of current estate owners. We maintain relationships with only twelve families worldwide at any given time.",
+        "service-feature-2-title": "Sovereign privacy",
+        "service-feature-2-desc": "Properties of this magnitude don't have addresses. They have coordinates. Viewings require signed NDAs, security clearances, and often diplomatic courtesies.",
+        "service-feature-3-title": "Absolute discretion",
+        "service-feature-3-desc": "Królewo Forest Estate maintains no public presence beyond this introduction. All transactions are conducted in complete confidence, with documentation handled through private channels.",
+        
+        // Forest Stats
+        "stat-1-title": "Minimum 1000+ hectares",
+        "stat-1-desc": "While others offer plots, we present kingdoms. Our smallest estate encompasses 1000 hectares of virgin forest. The largest exceed 5000 hectares—territories larger than sovereign nations.",
+        "stat-2-title": "Private wilderness",
+        "stat-2-desc": "These forests have known no public access for centuries. Old growth where wolves and lynx still roam. Where you can ride for days without leaving your land.",
+        "stat-3-title": "Historical provenance",
+        "stat-3-desc": "Each estate comes with centuries of documented history. Former royal hunting grounds. Ancestral seats of European nobility. Properties mentioned in medieval chronicles.",
+        
+        // Other sections
         "nature-title": "The Królewo Advantage",
         "nature-subtitle": "Why discerning buyers choose this unique location",
         "investment-title": "The Compelling Narrative",
@@ -118,6 +134,22 @@ const translations = {
         "service-buyers-title": "Für Käufer",
         "service-buyers-desc": "Wir bieten Zugang zu Anwesen, die nie öffentlich angeboten wurden. Unsere Kunden erhalten bevorzugte Berücksichtigung bei Immobilien, bevor eine breitere Vermarktung in Betracht gezogen wird.",
         "invitation-notice": "Zugang nur durch schriftliche Empfehlung eines bestehenden Kunden.",
+        
+        // Service Features
+        "service-feature-1-title": "Vorstandsgenehmigung erforderlich",
+        "service-feature-1-desc": "Jeder potenzielle Kunde muss von unserem Beirat der aktuellen Gutsbesitzer genehmigt werden. Wir pflegen Beziehungen zu nur zwölf Familien weltweit zu jedem Zeitpunkt.",
+        "service-feature-2-title": "Souveräne Privatsphäre",
+        "service-feature-2-desc": "Immobilien dieser Größenordnung haben keine Adressen. Sie haben Koordinaten. Besichtigungen erfordern unterzeichnete Geheimhaltungsvereinbarungen, Sicherheitsüberprüfungen und oft diplomatische Höflichkeiten.",
+        "service-feature-3-title": "Absolute Diskretion",
+        "service-feature-3-desc": "Das Waldgut Królewo unterhält keine öffentliche Präsenz über diese Einführung hinaus. Alle Transaktionen werden in vollstem Vertrauen durchgeführt, mit Dokumentation über private Kanäle.",
+        
+        // Forest Stats
+        "stat-1-title": "Minimum 1000+ Hektar",
+        "stat-1-desc": "Während andere Grundstücke anbieten, präsentieren wir Königreiche. Unser kleinstes Anwesen umfasst 1000 Hektar unberührten Wald. Die größten überschreiten 5000 Hektar—Territorien größer als souveräne Nationen.",
+        "stat-2-title": "Private Wildnis",
+        "stat-2-desc": "Diese Wälder kennen seit Jahrhunderten keinen öffentlichen Zugang. Urwald, wo noch Wölfe und Luchse umherstreifen. Wo Sie tagelang reiten können, ohne Ihr Land zu verlassen.",
+        "stat-3-title": "Historische Herkunft",
+        "stat-3-desc": "Jedes Anwesen kommt mit jahrhundertelang dokumentierter Geschichte. Ehemalige königliche Jagdgründe. Stammsitze des europäischen Adels. In mittelalterlichen Chroniken erwähnte Anwesen.",
         
         // Other sections
         "nature-title": "Der Królewo-Vorteil",
@@ -187,6 +219,22 @@ const translations = {
         "service-buyers-desc": "Nous offrons l'accès à des domaines qui n'ont jamais été offerts publiquement. Nos clients reçoivent une considération prioritaire sur les propriétés avant qu'une commercialisation plus large ne soit envisagée.",
         "invitation-notice": "Accès par recommandation écrite d'un client existant uniquement.",
         
+        // Service Features
+        "service-feature-1-title": "Approbation du conseil requise",
+        "service-feature-1-desc": "Chaque client potentiel doit être approuvé par notre conseil consultatif des propriétaires actuels. Nous maintenons des relations avec seulement douze familles dans le monde à tout moment.",
+        "service-feature-2-title": "Confidentialité souveraine",
+        "service-feature-2-desc": "Les propriétés de cette ampleur n'ont pas d'adresses. Elles ont des coordonnées. Les visites nécessitent des accords de confidentialité signés, des habilitations de sécurité et souvent des courtoisies diplomatiques.",
+        "service-feature-3-title": "Discrétion absolue",
+        "service-feature-3-desc": "Le Domaine Forestier de Królewo ne maintient aucune présence publique au-delà de cette introduction. Toutes les transactions sont menées en toute confidentialité, avec documentation gérée par des canaux privés.",
+        
+        // Forest Stats
+        "stat-1-title": "Minimum 1000+ hectares",
+        "stat-1-desc": "Alors que d'autres offrent des parcelles, nous présentons des royaumes. Notre plus petit domaine englobe 1000 hectares de forêt vierge. Les plus grands dépassent 5000 hectares—des territoires plus grands que des nations souveraines.",
+        "stat-2-title": "Nature sauvage privée",
+        "stat-2-desc": "Ces forêts n'ont connu aucun accès public depuis des siècles. Forêt ancienne où loups et lynx errent encore. Où vous pouvez chevaucher pendant des jours sans quitter votre terre.",
+        "stat-3-title": "Provenance historique",
+        "stat-3-desc": "Chaque domaine vient avec des siècles d'histoire documentée. Anciens terrains de chasse royaux. Sièges ancestraux de la noblesse européenne. Propriétés mentionnées dans les chroniques médiévales.",
+        
         // Other sections
         "nature-title": "L'Avantage Królewo",
         "nature-subtitle": "Pourquoi les acheteurs exigeants choisissent cet emplacement unique",
@@ -254,6 +302,22 @@ const translations = {
         "service-buyers-title": "Dla Nabywców",
         "service-buyers-desc": "Oferujemy dostęp do posiadłości, które nigdy nie były publicznie oferowane. Nasi klienci otrzymują pierwszeństwo w oglądaniu nieruchomości przed jakimkolwiek rozważaniem szerszego marketingu.",
         "invitation-notice": "Dostęp tylko przez pisemne polecenie od istniejącego klienta.",
+        
+        // Service Features
+        "service-feature-1-title": "Wymagana zgoda zarządu",
+        "service-feature-1-desc": "Każdy potencjalny klient musi zostać zatwierdzony przez naszą radę doradczą obecnych właścicieli posiadłości. Utrzymujemy relacje tylko z dwunastoma rodzinami na świecie w danym czasie.",
+        "service-feature-2-title": "Suwerenna prywatność",
+        "service-feature-2-desc": "Nieruchomości tej wielkości nie mają adresów. Mają współrzędne. Oglądanie wymaga podpisanych umów o zachowaniu poufności, kontroli bezpieczeństwa i często dyplomatycznej kurtuazji.",
+        "service-feature-3-title": "Absolutna dyskrecja",
+        "service-feature-3-desc": "Rezydencja Leśna Królewo nie utrzymuje publicznej obecności poza tym wprowadzeniem. Wszystkie transakcje prowadzone są w pełnej poufności, z dokumentacją obsługiwaną przez prywatne kanały.",
+        
+        // Forest Stats
+        "stat-1-title": "Minimum 1000+ hektarów",
+        "stat-1-desc": "Podczas gdy inni oferują działki, my prezentujemy królestwa. Nasza najmniejsza posiadłość obejmuje 1000 hektarów dziewiczego lasu. Największe przekraczają 5000 hektarów—terytoria większe niż suwerenne narody.",
+        "stat-2-title": "Prywatna dzicz",
+        "stat-2-desc": "Te lasy nie znały publicznego dostępu od wieków. Stary drzewostan, gdzie wciąż wędrują wilki i rysie. Gdzie możesz jeździć konno przez dni bez opuszczania swojej ziemi.",
+        "stat-3-title": "Historyczna proweniencja",
+        "stat-3-desc": "Każda posiadłość pochodzi z wiekami udokumentowanej historii. Dawne królewskie tereny łowieckie. Rodowe siedziby europejskiej szlachty. Nieruchomości wspomniane w średniowiecznych kronikach.",
         
         // Other sections
         "nature-title": "Przewaga Królewa",
