@@ -187,6 +187,36 @@ img {
     align-items: center;
 }
 
+/* Language Switcher */
+.language-switcher {
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 2rem;
+}
+
+.lang-btn {
+    background: transparent;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    color: var(--accent-color);
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.lang-btn:hover {
+    background: rgba(212, 175, 55, 0.1);
+    border-color: var(--accent-color);
+}
+
+.lang-btn.active {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
 .nav-logo h1 {
     font-size: 1.4rem;
     color: var(--white);
